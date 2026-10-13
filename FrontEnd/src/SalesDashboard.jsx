@@ -15,7 +15,7 @@ const SalesDashboard = () => {
                 const token = localStorage.getItem("token");
 
                 const response = await axios.get(
-                    "http://localhost:5000/sales/category-summary",
+                    "https://assignment-wam8.onrender.com/sales/category-summary",
                     {
                         headers: {
                             Authorization: `Bearer ${token}`,
